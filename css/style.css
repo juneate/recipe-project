@@ -59,6 +59,7 @@
       font-size: 0.7em;
       padding:1.5em;
       margin-top: -1.7em;
+      text-transform: uppercase;
          
   }
 
@@ -140,33 +141,6 @@
 .Equipment{
   margin-left: 0vw;
   max-width: 100%;
-}
-
-.EOrdered-list{
-    font-family: fira sans;
-    line-height: 1.7em;
-    font-weight: lighter;
-    font-size: 0.7em;
-    padding:1.5em;
-    margin-top: -1.7em;
-}
-
-.process
-{       
-        font-size: 0.7em;
-        font-weight: lighter;
-        font-family: fira sans;
-        padding:1.5em;
-        margin-top: -1.7em;
-}
-
-.mixing
-{       
-        font-size: 0.7em;
-        font-weight: lighter;
-        font-family: fira sans;
-        padding:1.5em;
-        margin-top: -1.7em;
 }
 
 .title
