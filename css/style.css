@@ -1,0 +1,66 @@
+html{
+    font-size: 16px;
+}
+
+.head{
+    background-image: url("/img/ingredients-480w.jpg");
+    max-width:100%;
+    color: whitesmoke;
+    padding: 0%;
+    border: 0.5rem;
+    background-repeat: no-repeat;
+}
+
+.capitalize{
+    text-transform:uppercase;
+    text-emphasis: bold;
+}
+
+.bakinghighlight{
+    background-color: orangered;
+    margin-right: 23rem;
+    color: black;
+}
+
+.second{
+    background-color: darkgrey;
+    color: orangered;
+    margin-top : -18px;
+}
+
+.sechighlight{
+    background-color: orangered;
+    color: black;
+}
+
+.hl{
+    color: orangered;
+}
+
+.quotes{
+    border-left-width: 50%;
+    border-left-style: solid;
+    border-left-color: orangered;
+    padding-left: 20px;
+}
+
+.weight{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0.5em;
+    border-color: black;
+    margin-right: 23em;
+    background-color: white;
+}
+
+.gram{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0.4em;
+    background-color: orangered;
+
+}
+
+.end{
+    background-color: darkgray;
+}
