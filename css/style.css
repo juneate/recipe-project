@@ -1,151 +1,427 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&display=swap');
 
+/* Small view Port */
+*{
+    box-sizing:border-box;
+   }
+    
+/* Entire backgound colour */
+:root{
+    --bg:#ffffff;
+    }
+ 
+/* Head Margin setup */
+head{    
+        margin-left:0.5em;
+        background-color: var(--bg);
+        }
+    /* Body margin setup */
+body{    
+    margin-left:0.5em;
+    background-color: var(--bg);
+    }
 
-.titlecoverpage {
-    background-image: url("/img/ingredients-480w.jpg");
-    max-width:100%;
-    background-color:rgb(49, 38, 38);
-    background-blend-mode: multiply;
+    /* Layout declaration */
+.layout{
+    display: grid;
+}
+
+/* Header section */
+header{
+    position: static;
+    box-sizing:content-box;
+    background-image: url("../img/ingredients-480w.jpg");
     background-repeat: no-repeat;
-    display: flow-root;
-  }
+    background-color:#353A42;
+    background-blend-mode: multiply; 
+    width: auto;
+    display: flow-root;    
+}
 
-  .h3-style{
-      background-color: #ffbc48;
-      font-family: Georgia, 'Times New Roman', Times, serif;
-      font-weight: bold;
-      color: black;
-      display:inline-block;
-      margin-top: 2em;
-      font-size: 1em;
-      margin-left: 1em;
-      padding:0.2em;
-
-  }
-
-  .h2-style{
-      font-size: 1.5em;
-      color:white;
-      font-family: fira sans;
-      max-width: 480px;
-      font-weight: bold;
-      font-style: normal;
-      margin: -1.6em auto auto 0.6em;
-
-  }
-
-  .para{
-      color:white;
-      font: size: 1.1em;
-      font-family: Georgia, 'Times New Roman', Times, serif;
-      max-width: 480px;
-      margin: -1.3em 3.5em auto 1em;
-  }
-
-  .span-style{
-      color: #ffbc48;
-      text-decoration: underline;
-      font-weight: bold;
-  }
-
-
-
-  .list-style{
-      font-family: fira sans;
-      color: white;
-      list-style-type: none;
-      line-height: 1.7em;
-      font-weight: bold;
-      font-size: 0.7em;
-      padding:1.5em;
-      margin-top: -1.7em;
-      text-transform: uppercase;
-         
-  }
-
-  .list-span{
+/* "Baking" header tab styling */
+.h5{
+    text-transform: capitalize;
+    margin: 3vw auto 1vw 2.5vw;
     background-color: #ffbc48;
-    font-family:fira sans;
-    font-weight: bolder;
-    color: black;
-    display:inline-block;
-    font-size: 0.9em;
-    padding:0.01em 0.3em 0em 0.3em;
-  }
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.6em;
+    padding: 0.1em;
+    display: inline-block;
+    text-transform: capitalize;
+}
 
-  .Ordered-list{
+/* Title part styling */
+.h1{
+    text-transform: capitalize;
     font-family: fira sans;
-    color: #ffbc48;
+    color: #ffffff;    
+    font-size:1.5em;
+    display: block;
+    margin: 0.1vw auto auto 2vw;
+    font-weight: bold;    
+}
+
+/* Introduction part styling */
+.delicious{
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 1.2em;
+    display: block ;
+    margin: -0.3vw 1vw auto 2.5vw;
+}
+
+/* Introduction hightlighted part styling */
+.span{
+    color:#ffbc48;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Baking requirements list styling */
+.time-list{
+    text-transform: uppercase;
     list-style-type: none;
-    line-height: 1.7em;
     font-weight: bold;
-    font-size: 0.7em;
-    padding:1.5em;
-    margin-top: -1.7em;
-    background-color: #222028;
-  
-}
-.h3-storystyle{
-    color:black;
-    font-size: 20px;
     font-family: fira sans;
-    margin-left: 0vw;
-    font-weight: bold;
+    color: #ffffff;
+    font-size: 0.8em;
+    display:block;
+    max-width: 100%;    
+    padding: 2.5vw;
+    margin-top:-2.5vw;
+    margin-bottom: 0vw;
+    line-height: 1.5em;    
 }
 
-.story{
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 16px;
-   margin-left: 0vw;
-   text-align: justify;
+/* Baking requirements - Timing list styling */
+.time-list-span{
+    background-color: #ffbc48;
+    font-family: fira sans;
+    font-weight:bolder;
+    color: #000000;
+    font-size: 0.9em;
+    padding:0.1em 0.3em 0.1em 0.3em;
 }
-.span-story{
+
+/* Content list styling */
+nav{
+    background-color: #222028;
+   margin:0vw 0vw auto -1vw;
+}
+
+/* navigation styling */
+.navigation{    
+    font-family: fira sans;
+    font-weight: bold;
+    font-size: 1em;
+    line-height: 2em;
+    list-style-type: none;
+    padding: 2.5vw;
+    
+}
+
+/* navigation list styling */
+.nav-href{
+    text-decoration: none;
+    color: #ffbc48;
+}
+
+/* Overall margin listing margin setup */
+.story,.main-ingredients,.main-process{
+    margin-left:15px;
+}
+
+/* Story styling */
+.story{
+    background-color: #ffffff;
+    color: #000000;
+    box-sizing: content-box;
+    margin: 1vw;
+    margin-bottom: -2em;
+}
+
+/* Title styling */
+.title{
+    font-family: fira sans;
+    font-weight: bolder;
+    font-size:1.5em;
+    letter-spacing: 0.05em;
+    margin-top: 3.5vw;
+}
+
+/* Paragraph styling */
+.paragraph{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#000000;
+    font-size: 1em;
+    text-align: justify;    
+}
+
+.anchor{
     color: #ffbc48;
     text-decoration: underline;
-    font-size: 16px;
+    font-weight: bolder;
 }
 
-.poetry{
-    border-left:solid rgb(255, 208, 0) 5px;
+/* Author quote styling */
+blockquote{
+    margin-block-start: 1em;
+    border-left: 4px solid #ffbc48;
+    margin-inline-start: 0px;
+}
+
+
+.block-para{
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
-    padding: 1.5em;
+    font-size: 0.89em;
+    padding-left: 0.6em;
+    text-align: justify;
 }
 
-.baquettes {
-    background-repeat: no-repeat;
+/* Story image styling */
+.banner{
     display: block;
+    padding: 0.1em;
 }
 
-.ingredients{
-    margin-left: 0vw;  
+img{
     max-width: 100%;
 }
 
-.ingredients-style{
-    font-size: 16px;
-    margin-left: 0vw;
-    line-height: 1.7em;  
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding-left:20px;
-   
+/* Ingredients content styling */
+.ingredients{
+    background-color: #ffffff;
+    color: #000000;
+    box-sizing: content-box;
 }
 
-.ilist-span{
+/* Toggle bar styling */
+.mode {
+	display:none;
+}
+.toggle {
+	background-color: #808080;
+	display: block;
+	width: 3em;
+	border: 1px solid #ffffff;
+	border-radius: 0.8em;
+	margin: 1em 0;
+    margin-left: 3em;
+}
+.switch {
+	background-color: #ffbc48;
+	height: 1em;
+	width: 2em;
+    border: 0.2px solid #000000;
+	border-radius: 0.5em;
+}
+
+/* Ingredients list styling */
+.ingredient-title{
     font-family: fira sans;
-    font-weight: bold; 
-    color: black;  
-    font-size: 20px;
- 
+    font-weight: bolder;
+    font-size:1.5em;
+    letter-spacing: 0.05em;
+    margin-top: 4vw;
 }
 
-.Equipment{
-  margin-left: 0vw;
-  max-width: 100%;
+.listing{
+    color: #000000;
+     font-family:Georgia, 'Times New Roman', Times, serif;
+     font-size: 1em;
+     line-height: 1.5em;
+     padding: 2.5vw;
+ }
+
+ /* Process Content styling */
+ .process{
+    background-color: #ffffff;
+    color: #000000;
+    box-sizing: content-box;
+    margin: 1vw;
 }
 
-.title
+.process-title{
+    font-family: fira sans;
+    font-weight: bolder;
+    font-size:1.5em;
+    letter-spacing: 0.05em;
+    margin-top: 4vw;
+}
+
+/* Process list items styling */
+ .list-items{
+     padding: 2.5vw;
+     }
+
+     /* Overall list header styling */
+ .p-item{
+     font-family: fira sans;
+     font-weight: bolder;
+     font-size: 1.2em;
+     margin-block-start: 0em;   
+}
+
+/* Overall list content styling */
+.p-paragraph{
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    color: #000000;
+   }
+
+   /* Image tagline styling */
+.subtitle{
+    margin-block-start: 0em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.86em;
+}
+.underline{
+    color: #000000;
+    background-color: #ffbc48;
+    font-weight: bold;
+}
+
+/* Table content styling */
+table{
+    border-collapse: collapse;
+    max-width: 100%;
+    margin-bottom: 0.5em;
+}
+
+ th, td{
+    border: 1px solid #000000;
+    text-align: center;
+    width: 480px;
+    padding: 6px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.84em;
+}
+
+/* footer content styling */
+footer{
+    background-color: #554e4e;
+}
+
+.first-part{
+   max-width: 160px;
+    
+}
+.f-paragraph{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#ffffff;
+    text-align: justify;
+    font-size: 0.7em;
+    padding: 2.5vw;
+    line-height: 1.5em;
+  
+   }
+
+.bold{
+    font-size: 0.95em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffbc48;
+    font-weight: bold;
+    text-decoration:underline;   
+}
+
+
+
+/*Large view Port*/
+@media only screen and (min-width:650px){
+
+    /* Body background setup modification*/
+body{
+    background-color: #303030;
+}
+
+/* Header content styling modification*/
+header{
+    background-image: url("../img/ingredients-1920w.jpg");
+    display: block;
+    height: 320px;
+    grid-column: 1 / span 2;
+    }
+
+    /* Schedule list styling modification*/
+.time-list{
+    display: flex;
+    justify-content:space-evenly;
+    font-size: 1em;
+  
+}
+.time-list li{
+    display: grid;
+}
+
+/* Introduction part styling modification*/
+.h1,.h5, .delicious{
+    margin-left: 200px;
+}
+
+/* layout setup */
+.layout{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+/* Content list(Navigation part) styling modification*/
+nav{
+    margin-top: -4vw;
+}
+.navigation{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1vw;
+}
+
+/* Ingredients styling modification*/
+.ingredients{
+    grid-row: 2 / span 6;
+    background-color: #ffbc48;
+    margin-top: -4vw;
+    margin-left: 200px;
+    padding-right:100px;
+}
+
+.ingredient-title{
+    margin-left: 30px;
+}
+.listing{
+    margin-left: 15px;
+}
+
+/* Story and prcoess styling modification */
+.story, .process{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left:0;
+    margin-top:-13px;
+}
+
+.first-part{
+    max-width: 200px;
+}
+
+/* Overall list styling modification */
+nav, .story, .process, footer{
+    margin-right: 200px;
+}
+
+/* Footer section styling modification */
+footer{
+    margin-top: -10px;
+}
+
+/* Contact icon styling */
+.contact-media
 {
-        margin-top: 0.5vw;
-        font-size: 14px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-inline-end: 0 -1em;
+    padding-left: 26em;
+    margin-top: -6.5em;
+    display: flex;
+}
 }
