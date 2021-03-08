@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&display=swap');
+
+
+.titlecoverpage {
+    background-image: url("/img/ingredients-480w.jpg");
+    max-width:100%;
+    background-color:rgb(49, 38, 38);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    display: flow-root;
+  }
+
+  .h3-style{
+      background-color: #ffbc48;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: bold;
+      color: black;
+      display:inline-block;
+      margin-top: 2em;
+      font-size: 1em;
+      margin-left: 1em;
+      padding:0.2em;
+
+  }
+
+  .h2-style{
+      font-size: 1.5em;
+      color:white;
+      font-family: fira sans;
+      max-width: 480px;
+      font-weight: bold;
+      font-style: normal;
+      margin: -1.6em auto auto 0.6em;
+
+  }
+
+  .para{
+      color:white;
+      font: size: 1.1em;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      max-width: 480px;
+      margin: -1.3em 3.5em auto 1em;
+  }
+
+  .span-style{
+      color: #ffbc48;
+      text-decoration: underline;
+      font-weight: bold;
+  }
+
+
+
+  .list-style{
+      font-family: fira sans;
+      color: white;
+      list-style-type: none;
+      line-height: 1.7em;
+      font-weight: bold;
+      font-size: 0.7em;
+      padding:1.5em;
+      margin-top: -1.7em;
+      text-transform: uppercase;
+         
+  }
+
+  .list-span{
+    background-color: #ffbc48;
+    font-family:fira sans;
+    font-weight: bolder;
+    color: black;
+    display:inline-block;
+    font-size: 0.9em;
+    padding:0.01em 0.3em 0em 0.3em;
+  }
+
+  .Ordered-list{
+    font-family: fira sans;
+    color: #ffbc48;
+    list-style-type: none;
+    line-height: 1.7em;
+    font-weight: bold;
+    font-size: 0.7em;
+    padding:1.5em;
+    margin-top: -1.7em;
+    background-color: #222028;
+  
+}
+.h3-storystyle{
+    color:black;
+    font-size: 20px;
+    font-family: fira sans;
+    margin-left: 0vw;
+    font-weight: bold;
+}
+
+.story{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+   margin-left: 0vw;
+   text-align: justify;
+}
+.span-story{
+    color: #ffbc48;
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+.poetry{
+    border-left:solid rgb(255, 208, 0) 5px;
+    font-style: italic;
+    padding: 1.5em;
+}
+
+.baquettes {
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.ingredients{
+    margin-left: 0vw;  
+    max-width: 100%;
+}
+
+.ingredients-style{
+    font-size: 16px;
+    margin-left: 0vw;
+    line-height: 1.7em;  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left:20px;
+   
+}
+
+.ilist-span{
+    font-family: fira sans;
+    font-weight: bold; 
+    color: black;  
+    font-size: 20px;
+ 
+}
+
+.Equipment{
+  margin-left: 0vw;
+  max-width: 100%;
+}
+
+.title
+{
+        margin-top: 0.5vw;
+        font-size: 14px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+}
